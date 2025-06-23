@@ -1,13 +1,13 @@
-const capitalize = require("./capitalize");
+const reverse = require("./reverse");
 
-test("capitalize banana", () => {
-  expect(capitalize("banana")).toBe("Banana");
+test("reverse banana", () => {
+  expect(reverse("banana")).toBe("ananab");
 });
 
-test("capitalize Apple", () => {
-  expect(capitalize("Apple")).toBe("Apple");
+test("reverse Shadowshark99", () => {
+  expect(reverse("Shadowshark99")).toBe("99krahswodahS");
 });
 
-test("capitalize cAPITALIZE", () => {
-  expect(capitalize("cAPITALIZE")).toBe("CAPITALIZE");
+test("reverse reverse#$%", () => {
+  expect(reverse("reverse#$%")).toBe("%$#esrever");
 });
