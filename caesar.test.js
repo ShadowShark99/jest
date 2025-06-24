@@ -9,5 +9,5 @@ test("caesar abc -> 5", () => {
 });
 
 test("caesar @#$%coolPASSWORD -> 1", () => {
-  expect(caesar("@#$%coolPASSWORD#$%", 1)).toBe("%$#@#$%dppmQBTTXPSE");
+  expect(caesar("@#$%coolPASSWORD", 1)).toBe("@#$%dppmQBTTXPSE");
 });
